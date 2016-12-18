@@ -1,0 +1,14 @@
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\backend.exe.config
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\backend.exe
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\backend.pdb
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\EntityFramework.dll
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\EntityFramework.xml
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\obj\Debug\backend.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\obj\Debug\backend.exe
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\obj\Debug\backend.pdb
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\websocket-sharp.dll
+C:\Users\Lukas\Desktop\MIF Programming\TOP\websockets_chat\backend\bin\Debug\websocket-sharp.xml
+C:\Users\Lukas\Desktop\MIF Programming\TOP\WebSockets_Chat\backend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lukas\Desktop\MIF Programming\TOP\WebSockets_Chat\backend\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,33 @@
+﻿<div class="chat" data-chat-id="{{chat_id}}">
+
+	<h4 class="bg-primary p-l-10 p-t-10 p-b-10">Chat Name</h4>
+	<div class="form-group m-b-30">
+		<input class="js-chat-name form-control" placeholder="Chat Name" value="{{chat_name}}">
+	</div>
+
+	<div class="m-b-30 clearfix">
+		<h4 class="bg-primary p-l-10 p-t-10 p-b-10">Participants</h4>
+		{{#participants}}
+			<div class="clearfix">
+				<div class="col-xs-2">{{username}}</div>
+				<div class="col-xs-2">{{email}}</div>
+			</div>
+		{{/participants}}
+	</div>
+
+	<h4 class="bg-primary p-l-10 p-t-10 p-b-10">Messages (showing last 10)</h4>
+	{{#messages}}
+		<div class="message bg-success p-t-10 p-b-10 clearfix">
+			<div class="col-xs-2">{{username}}</div>
+			<div class="col-xs-10">{{message}}</div>
+		</div>
+	{{/messages}}
+
+	<form data-chat-id="{{chat_id}}" class="form-inline js-send-message-form text-center m-b-30">
+		<div class="form-group">
+			<input class="form-control" type="text" name="message" placeholder="Enter a message">
+		</div>
+
+		<button type="submit" class="btn btn-default">Send</button>
+	</form>
+</div>

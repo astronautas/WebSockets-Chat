@@ -1,0 +1,17 @@
+@import "vendor/bootstrap";
+
+.login-container {
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	max-width: 300px;
+	width: 100%;
+
+	@include center_block();
+}
+
+.greetings-text {
+	padding-bottom: 30px;
+	font-size: 18px;
+}

@@ -1,0 +1,32 @@
+﻿<form class="form-inline js-add-contact-form text-center">
+	<div class="form-group">
+		<input class="form-control" type="email" name="contact_email" placeholder="Enter email address">
+	</div>
+
+	<button type="submit" class="btn btn-default">Add contact</button>
+</form>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+  	<tr>
+  		<th>Name</th>
+  		<th>Email</th>
+      <th>Actions</th>
+  	</tr>
+
+    {{#contacts}}
+    	<tr data-chat-id="{{chatId}}" data-email="{{email}}">
+    		<td>{{username}}</td>
+    		<td>{{email}}</td>
+        <td>
+          <div class="btn btn-success js-contact">Chat</div>
+          <div onclick="if (!window.confirm('Delete?')) e.stopImmediatePropagation();" class="btn btn-danger js-delete-contact">Delete</div>
+        </td>
+    	</tr>
+    {{/contacts}}
+  </table>
+</div>
+
+<div class="text-center">
+  <button class="js-open-top-authors btn btn-default">Top authors</button>
+</div>

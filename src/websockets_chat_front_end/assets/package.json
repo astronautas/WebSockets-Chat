@@ -1,0 +1,31 @@
+{
+  "name": "react-webpack-babel",
+  "version": "0.0.3",
+  "description": "React Webpack Babel Starter Kit",
+  "main": "''",
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js --progress --profile --colors",
+    "start": "webpack --devtool source-map --watch --progress --profile --colors",
+    "lint": "eslint --ext js --ext jsx src || exit 0"
+  },
+  "author": "Ali Al Dallal",
+  "license": "MIT",
+  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "dependencies": {
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "mustache-loader": "^0.4.1",
+    "node-sass": "^3.13.0",
+    "postcss-loader": "^1.2.0",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "0.13.1",
+    "underscore": "^1.8.3",
+    "url-loader": "0.5.7",
+    "webpack": "1.14.0",
+    "webpack-cleanup-plugin": "^0.4.1"
+  }
+}
